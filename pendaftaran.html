@@ -1,0 +1,221 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta name="author" content="Yunior Alamsyah Kuba" />
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Pendaftaran</title>
+  </head>
+  <style>
+    body {
+      background-image: url(logoSMK.png);
+      background-repeat: no-repeat;
+      background-attachment: fixed;
+      background-position: center;
+      background-color: white;
+    }
+
+    * {
+      margin: 0px;
+      padding: 0px;
+    }
+
+    header {
+      background-color: whitesmoke;
+      padding: 20px;
+      box-shadow: 0px 2px 5px rgb(0, 0, 0);
+      position: fixed;
+      display: flex;
+      width: 100%;
+    }
+
+    nav ul {
+      list-style: none;
+      display: flex;
+      justify-content: center;
+      cursor: pointer;
+    }
+
+    nav li {
+      margin: 0 15px;
+    }
+
+    nav a {
+      text-decoration: none;
+      font-weight: bold;
+      font-size: x-large;
+    }
+
+    nav a:hover {
+      background-color: lightblue;
+    }
+
+    .container {
+      padding: 50px;
+      color: whitesmoke;
+      background-color: rgba(0, 0, 0, 0.8);
+      font-size: large;
+      background-size: cover;
+      text-shadow: 2px 5px 5px rgba(0, 0, 0, 0.5);     
+    }
+
+    .form {
+      background-color: rgba(255, 255, 255, 0.4);
+      color: black;
+      padding: 50px;
+      margin: 100px;
+      margin-left: 120px;
+      margin-right: 120px;
+      border-radius: 20px;
+    }
+
+    .form input, option{
+      padding: 10px 0;
+      width: 100vh;
+      border-radius: 5px;
+      border-collapse: collapse;
+      border: 0;
+    }
+
+    .p {
+      margin-top: 50px;
+    }
+
+    button{
+      cursor: pointer;
+      background-color: lightblue;
+      padding: 10px;
+      border-radius: 10px;
+      
+    }
+  </style>
+  <body>
+    <header>
+      <nav>
+        <ul>
+          <li><a href="index.html">HOME</a></li>
+          <li><a href="pendaftaran.html">DAFTAR</a></li>
+        </ul>
+      </nav>
+    </header>
+    <div class="container">
+      <div align="center" class="p">
+        <h1>FORMULIR PENDAFTARAN PESERTA DIDIK BARU</h1>
+      </div>
+      <br /><br />
+      <div class="form">
+        <form>
+          <!--tag <form> untuk membuat formulir-->
+          <div>
+            <table cellspacing="20px">
+              <tr>
+                <td colspan="2"><strong>A. Biodata Anak</strong></td>
+              </tr>
+              <tr>
+                <td>Nama Lengkap:</td>
+                <td><input type="text" placeholder="Nama Lengkap" /></td>
+              </tr>
+              <tr>
+                <td>Agama:</td>
+                <td><input type="text" placeholder="Agama" /></td>
+              </tr>
+              <tr>
+                <td>Tempat Lahir:</td>
+                <td><input type="text" placeholder="Tempat Lahir" /></td>
+              </tr>
+              <tr>
+                <td>Tanggal Lahir:</td>
+                <td><input type="date" /></td>
+              </tr>
+              <tr>
+                <td>Alamat:</td>
+                <td><input type="text" placeholder="Alamat" /></td>
+              </tr>
+              <tr>
+                <td>No. Telp:</td>
+                <td>
+                  <input type="text" placeholder="No. Telp" maxlength="13" />
+                </td>
+              </tr>
+              <tr>
+                <td>Asal Sekolah:</td>
+                <td><input type="text" placeholder="Asal Sekolah" /></td>
+              </tr>
+              <tr>
+                <td>Ingin Masuk Ke Jurusan:</td>
+                <td>
+                  <select name="jurusan">
+                    <option value="dkv">DKV</option>
+                    <option value="listrik">LISTRIK</option>
+                    <option value="mesin">MESIN</option>
+                    <option value="otomotif">OTOMOTIF</option>
+                    <option value="rpl">RPL</option>
+                    <option value="tataboga">TATA BOGA</option>
+                    <option value="tatabusana">TATA BOGA</option>
+                  </select>
+                </td>
+              </tr>
+              <tr>
+                <td colspan="2"><strong>B. Biodata Orang Tua</strong></td>
+              </tr>
+              <tr>
+                <td>Nama Ayah:</td>
+                <td><input type="text" placeholder="Nama Ayah" /></td>
+              </tr>
+              <tr>
+                <td>Nama Ibu:</td>
+                <td><input type="text" placeholder="Nama Ibu" /></td>
+              </tr>
+              <tr>
+                <td>Alamat:</td>
+                <td><input type="text" placeholder="Alamat" /></td>
+              </tr>
+              <tr>
+                <td>Pekerjaan:</td>
+                <td><input type="text" placeholder="Pekerjaan" /></td>
+              </tr>
+              <tr>
+                <td>No. Telp:</td>
+                <td>
+                  <input type="text" placeholder="No. Telp" maxlength="13" />
+                </td>
+              </tr>
+              <tr>
+                <td><strong>C. Biodata Wali</strong></td>
+              </tr>
+              <tr>
+                <td>Nama Wali:</td>
+                <td><input type="text" placeholder="Nama Wali" /></td>
+              </tr>
+              <tr>
+                <td>Alamat:</td>
+                <td><input type="text" placeholder="Alamat" /></td>
+              </tr>
+              <tr>
+                <td>Pekerjaan:</td>
+                <td><input type="text" placeholder="Pekerjaan" /></td>
+              </tr>
+              <tr>
+                <td>No. Telp:</td>
+                <td>
+                  <input type="text" placeholder="No. Telp" maxlength="13" />
+                </td>
+              </tr>
+            </table>
+          </div>
+        </form>
+        <br /><br />
+        <div>
+          <a href="index.html" class="back">
+            <button>KEMBALI</button>
+            <!--tag <button> untuk menambahkan tombol-->
+          </a>
+          <br />
+          <a href="selesai.html" class="send">
+            <button>KIRIM</button>
+          </a>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>

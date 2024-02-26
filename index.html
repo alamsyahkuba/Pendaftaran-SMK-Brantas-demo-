@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!--Nama: Yunior Alamsyah Kuba-->
+    <!--Kelas: XI RPL 2-->
+    <!--No: 34-->
+    <meta name="author" content="Yunior Alamsyah Kuba" />
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!--tag <meta> untuk memberi identitas pada web-->
+    <title>Home</title>
+  </head>
+  <style>
+    body {
+      background-image: url(logoSMK.png);
+      background-repeat: no-repeat;
+      background-attachment: fixed;
+      background-position: center;
+      background-color: white;
+    }
+
+    h1 {
+      color: black;
+    }
+
+    * {
+      margin: 0px;
+      padding: 0px;
+    }
+
+    header {
+      background-color: whitesmoke;
+      padding: 20px;
+      box-shadow: 0px 2px 5px rgb(0, 0, 0);
+      position: fixed;
+      display: flex;
+      width: 100%;
+    }
+
+    nav ul {
+      list-style: none;
+      display: flex;
+      justify-content: center;
+      cursor: pointer;
+    }
+
+    nav li {
+      margin: 0 15px;
+    }
+
+    nav a {
+      text-decoration: none;
+      font-weight: bold;
+      font-size: x-large;
+    }
+
+    nav a:hover {
+      background-color: lightblue;
+    }
+
+    .container {
+      padding: 50px;
+      color: whitesmoke;
+      background-color: rgba(0, 0, 0, 0.8);
+      font-size: large;
+      background-size: cover;
+      text-shadow: 2px 5px 5px rgba(0, 0, 0, 0.5);
+    }
+
+    .p {
+      margin: 50px;
+      font-size: xx-large;
+    }
+
+    button{
+      cursor: pointer;
+      background-color: lightblue;
+      padding: 10px;
+      border-radius: 10px;
+    }
+
+    button:hover {
+      background-color: aqua;
+    }
+  </style>
+  <body>
+    <header>
+      <nav>
+        <ul>
+          <li><a href="index.html">HOME</a></li>
+          <li><a href="pendaftaran.html" class="daftar">DAFTAR</a></li>
+        </ul>
+      </nav>
+    </header>
+    <div class="container">
+      <div class="p" align="center">
+        <p>
+          <strong
+            >SELAMAT DATANG PESERTA DIDIK BARU DI SMK BRANTAS
+            KARANGKATES</strong
+          >
+        </p>
+        <!--<h1>-<h6> untuk header dan besar kecil tulisan-->
+      </div>
+      <div>
+        <div>
+          <h2>VISI dan MISI SMK Brantas Karangkates</h2>
+          <img src="visimisi.webp" alt="Murid SMK Brantas" width="450px" />
+        </div>
+        <div>
+          <h4>VISI:</h4>
+          <p>
+            Memberikan kontribusi terhadap pembangunan nasional dengan
+            menghasilkan lulusan yang sesuai dengan kebutuhan tenaga kerja pasar
+            global
+          </p>
+        </div>
+        <br />
+        <div>
+          <h4>MISI:</h4>
+          <li>
+            Menjadikan SMK Brantas lembaga pendidikan yang berwawasan lingkungan
+          </li>
+          <li>
+            Menjadikan SMK Brantas lembaga pendidikan yang berbasis kompetensi.
+          </li>
+          <li>
+            Menjadikan SMK Brantas lembaga pendidikan yang menerapkan pendidikan
+            tuntas.
+          </li>
+          <li>
+            Menjadikan SMK Brantas lembaga pendidikan yang memiliki Sumber Daya
+            Manusia profesional.
+          </li>
+          <li>
+            Memberikan pelayanan yang terbaik terhadap siswa, wali siswa, guru,
+            karyawan, masyarakat dan Pemerintah.
+          </li>
+          <!--tag li untuk memberi list-->
+        </div>
+        <br /><br />
+        <div>
+          <h4>Link Pendaftaran Peserta Didik Baru</h4>
+          <p>Klik Tombol Dibawah</p>
+          <a href="pendaftaran.html"
+            ><!--tag <a href> untuk memberikan link pada file-->
+            <button>DAFTAR</button>
+          </a>
+        </div>
+      </div>
+    </div>
+    <!--tag <div> untuk mengelompokkan elemen menjadi satu grup-->
+  </body>
+</html>
